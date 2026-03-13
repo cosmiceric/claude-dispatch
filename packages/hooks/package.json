@@ -1,0 +1,17 @@
+{
+  "name": "@dispatch/hooks",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "@dispatch/shared": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "esbuild": "^0.25.0",
+    "typescript": "^5.7.0"
+  }
+}

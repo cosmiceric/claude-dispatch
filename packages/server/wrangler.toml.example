@@ -1,0 +1,21 @@
+name = "dispatch"
+main = "src/index.ts"
+compatibility_date = "2025-03-01"
+account_id = "YOUR_CLOUDFLARE_ACCOUNT_ID"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "dispatch"
+database_id = "YOUR_D1_DATABASE_ID"
+
+[durable_objects]
+bindings = [
+  { name = "SESSION_DO", class_name = "SessionDO" }
+]
+
+[[migrations]]
+tag = "v1"
+new_classes = ["SessionDO"]
+
+[vars]
+DISPATCH_USER_NAME = "User"

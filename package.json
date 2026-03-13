@@ -1,0 +1,14 @@
+{
+  "name": "dispatch",
+  "private": true,
+  "workspaces": [
+    "packages/shared",
+    "packages/server",
+    "packages/hooks"
+  ],
+  "scripts": {
+    "setup": "bash scripts/setup.sh",
+    "build": "npm run build -w packages/hooks",
+    "deploy": "npm run deploy -w packages/server"
+  }
+}
