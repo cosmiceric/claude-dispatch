@@ -1,4 +1,4 @@
-# Dispatch
+# Claude Dispatch
 
 Discord-powered remote approvals and monitoring for [Claude Code](https://docs.anthropic.com/en/docs/claude-code). Get notified on Discord when Claude needs permission to run a tool, and approve or deny from your phone — even when you're away from your desk.
 
@@ -48,8 +48,8 @@ You'll enter all of these values during setup.
 ## Quick Start
 
 ```bash
-git clone https://github.com/cosmicdesigndev/dispatch.git
-cd dispatch
+git clone https://github.com/cosmiceric/claude-dispatch.git
+cd claude-dispatch
 npm install
 npm run setup
 ```
